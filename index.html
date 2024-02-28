@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <!-- <script defer src="index.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>sophie-bluel</title>
+</head>
+
+<body>
+    <!-- Black Bar -->
+<div id="admin-bar" class="admin-bar hidden">
+    <button id="edit-mode-btn" class="open-modal">
+        <i class="fa-regular fa-pen-to-square"></i>
+    <p>Mode édition</p>
+      </button>
+</div>
+
+<!-- END Black bar -->
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <p class="name">Sophie Bluel</p>
+            <p class="subName">architecte d’intérieur</p>
+        </div>
+        <nav>
+            <ul>
+                <a href="">
+                    <li>Projets</li>
+                </a>
+                <a href="">
+                    <li>contact</li>
+                </a>
+                <a href="login.html" id="login-link">
+                    
+                <li>login</li>
+                </a>
+                <a href="">
+                    <li> <span class="insta"> <i class="fa-brands fa-instagram"></i></span></li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- End of header -->
+
+    <!-- Main -->
+
+
+    <main>
+    <!-- RECTANGLE1 -->
+        <section class="rectangle1">
+            <div class="square1">
+                <img class="Sophie" src="asset/picture/sophie-bluel.png" alt="sophie-bluel">
+            </div>
+            <div class="square2">
+                <h2>Mon projet</h2>
+                <p>Je raconte votre histoire, je valorise vos idées. Je vous accompagne de la conception à la livraison
+                    finale du chantier.</p>
+                <p>Chaque projet sera étudié en commun, de façon à mettre en valeur les volumes, les matières et les
+                    couleurs dans le respect de l’esprit des lieux, et le choix adapté des matériaux. Le suivi du
+                    chantier sera assuré dans le souci du détail, le respect du planning et du budget.</p>
+                <p>En cas de besoin, une équipe pluridisciplinaire peut être constituée : architecte DPLG,
+                    décorateur(trice).</p>
+            </div>
+        </section>
+
+<!-- RECTANGLE2 -->
+        <section>
+            <h2>Mes Projets</h2>
+            <div class="rectangle2"></div>
+            <div class="filtres"  ></div>
+            
+        <!-- RECTANGLE3 -->
+       <div class="rectangle3"  ></div></section>
+    </main>
+    <!-- End of Main -->
+
+    <!-- RECTANGLE4 -->
+    <section class="rectangle4">
+            <h2>Contact</h2>
+            <h4>Vous avez un projet ? Discutons-en !</h4>
+            <form action="">
+                <p><label for="">Nom</label>
+                    <input class="formtext" type="text" name="name">
+                </p>
+                <p><label for="">E-mail</label>
+                    <input class="formtext" type="text" name="mail">
+                </p>
+                <p><label for="">Message</label>
+                    <textarea class="formtext" name="textarea" id="textarea"></textarea>
+                </p>
+                <input class="submit" type="submit" value="Envoyer">
+            </form>
+    </section>
+    <!-- END RECTANGLE4 -->
+    
+<!-- Footer -->
+    <footer>
+        <p>Mentions légales</p>
+    </footer>
+
+    <!-- MODAL -->
+
+<button id="openModalBtn">Open Modal</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>This is a modal!</p>
+  </div>
+</div>
+<!-- END MODAL -->
+
+
+    <script src="tuto.js" ></script>
+    <script src="tutos.js" ></script>
+</body>
+
+</html>
